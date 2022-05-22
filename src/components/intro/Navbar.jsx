@@ -20,7 +20,7 @@ const Navbar = ({ navbarLinks }) => {
         <div>
             <nav className='navbar'>
 
-                <span className='navbar_logo'>FinalExam</span>
+                <span className='navbar_logo'>จังหวัดเลย</span>
 
                 {menuClicked ? (
                     <FiMenu size={25} className='navbar_menu' onClick={toggleMenuClick} />

@@ -1,13 +1,12 @@
 import './App.css';
 import Navbar from './components/intro/Navbar';
-import { BrowserRouter, Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './components/Home';
 import Topics from './components/Topics';
 import About from './components/About';
 const navbarLink = [
   { url: "/", title: "Home" },
   { url: "/About", title: "AboutUs" },
-  { url: "/Topics", title: "Topics" },
 ]
 
 
